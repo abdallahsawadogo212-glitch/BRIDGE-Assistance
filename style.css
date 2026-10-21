@@ -142,3 +142,15 @@ section p{
     font-weight: bold;
     margin-top: 10px;
 }
+.qr-code {
+    text-align: center;
+    margin: 40px auto;
+    padding: 20px;
+
+}
+.qr-code img{
+    width: 180px;
+    height: 180px;
+    display: block;
+    margin: 20px auto;
+}
