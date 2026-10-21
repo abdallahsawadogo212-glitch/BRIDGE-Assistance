@@ -1,0 +1,144 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: color #f5f7fa;
+    color: #172033;
+}
+header{
+    background-color:  #172033;
+    color: white;
+    text-align: center;
+    padding:60px 20px;
+}
+h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+h2{
+    font-weight: normal;
+}
+section{
+    background-color: white;
+    margin:20px;
+    padding:30px 20px;
+    border-radius: 15px;
+}
+.steps{
+    display: grid;
+    gap: 15px;
+}
+.step{
+    background-color: #ffffff;
+    border: 1px solid #e1e5ed;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.subjects {
+    display: grid;
+    gap: 15px;
+}
+.subject {
+    background-color: #ffffff;
+    border: 1px solid #e1e5ed;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.levels{
+    display: grid;
+    gap: 15px;
+}
+.level {
+    background-color: #ffffff;
+    border: 1px solid #e1e5ed;
+    padding: 20px;
+    border-radius: 15PX;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.contact{
+    background-color: #172033;
+    color:white;
+    text-align: center;
+}
+.a contact a{
+    display: inline-block;
+    background-color: white;
+    color:#172033;
+    text-decoration:none;
+    font-weight: bold;
+    padding: 14px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+section h2{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+step h3{
+    margin-top: 0;
+    font-size: 20px;
+}
+.subject h3{
+    margin-top: 0;
+    font-size: 20px;
+}
+level h3{
+    margin-top: 0;
+    font-size: 20px;
+}
+section p{
+    line-height: 1.7;
+}
+@media (max-width: 600px){
+    header{
+        padding: 45px 18px;
+    }
+    h1{
+        font-size: 32px;
+    }
+    section{
+        margin: 12px;
+        padding: 25px 18px;
+    }
+}
+.advantages{
+        border: 1px solid #e1e5ed;
+        gap : 15px;
+}
+.advantage {
+    border: 1px solid #e1e5ed;
+    padding: 22px;
+    border-radius: 15px;
+    background-color: white;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    max-width: 500px;
+    margin: 25px auto 0;
+}
+.contact label {
+    font-weight: bold;
+    text-align: left;
+}
+.contact select,
+.contact button{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+.contact select {
+    border: 1px solid #d5dbe5;
+    background-color: white;
+}
+.contact button{
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 10px;
+}
